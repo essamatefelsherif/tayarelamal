@@ -21,66 +21,53 @@ window.onload = () => {
 
 		series: [
 			{
-				name: 'Formal Education',
+				name: 'Interviews',
 				points: [
 					{
-						name: 'Formal Education',
+						name: 'Interviews',
 						outline: {
 							color: 'darkenMore',
 							width: 2
 						},
 						hatch_style: 'light-downward-diagonal',
-						y: ['1986-10-01', '1998-12-31']
+						y: ['2016-04-10', '2025-12-31']
 					},
 					{
-						name: 'BSc. Degree in Civil Engineering',
+						name: 'Mehwar TV',
 						marker_visible: true,
-						y: ['1986-11-01', '1986-11-01']
-					},
-					{
-						name: 'Professional Certificate in Computer Systems',
-						y: ['1997-10-01', '1998-12-31']
-					}
-				]
-			},
-			{
-				name: 'Work History',
-				points: [
-					{
-						name: 'Work History',
-						outline: {
-							color: 'darkenMore',
-							width: 2
-						},
-						hatch_style: 'light-downward-diagonal',
-						y: ['1987-01-01', '2025-08-31']
-					},
-					{
-						name: 'FORTRAN',
-						marker_visible: true,
-						y: ['1987-01-14', '1987-01-14'],
-					},
-					{
-						name: 'AI & Prolog',
-						marker_visible: true,
-						y: ['1987-04-16', '1987-04-16']
-					},
+						y: ['2016-04-20', '2016-04-20'],
+          tooltip: '<i>%name</i>'
 
-					{
-						name: 'Programming - Structural Analysis',
-						y: ['1987-05-01', '1998-12-31']
 					},
 					{
-						name: 'C/C++ Developer',
-						y: ['2000-03-15', '2005-09-15']
+						name: 'Al-Hayah TV Network #1',
+						marker_visible: true,
+						y: ['2016-08-02', '2016-08-02']
 					},
 					{
-						name: 'GIS Engineer and DBA',
-						y: ['2005-09-22', '2017-10-31']
+						name: 'Al-Hayah TV Network #2',
+						marker_visible: true,
+						y: ['2017-01-07', '2017-01-07']
 					},
 					{
-						name: 'Freelancer Developer',
-						y: ['2017-11-01', '2025-08-31']
+						name: 'Al-Masry Al-Youm',
+						marker_visible: true,
+						y: ['2017-08-28', '2017-08-28']
+					},
+					{
+						name: 'MBC Misr',
+						marker_visible: true,
+						y: ['2018-04-18', '2018-04-18']
+					},
+					{
+						name: 'BBC',
+						marker_visible: true,
+						y: ['2018-07-28', '2018-07-28']
+					},
+					{
+						name: 'BBC',
+						marker_visible: true,
+						y: ['2019-01-05', '2019-01-05']
 					},
 				]
 			},
