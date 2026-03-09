@@ -24,7 +24,7 @@ window.onload = () => {
 				name: 'Interviews',
 				points: [
 					{
-						name: 'Interviews',
+						name: 'لقاءات صحفية',
 						outline: {
 							color: 'darkenMore',
 							width: 2
@@ -36,39 +36,101 @@ window.onload = () => {
 						name: 'Mehwar TV',
 						marker_visible: true,
 						y: ['2016-04-20', '2016-04-20'],
-          tooltip: '<i>%name</i>'
-
+						tooltip: 'Mehwar TV ⋯ 20-Apr-2016',
+						label_align: 'right'
 					},
 					{
-						name: 'Al-Hayah TV Network #1',
+						name: 'Al-Hayah TV Network',
 						marker_visible: true,
-						y: ['2016-08-02', '2016-08-02']
+						y: ['2016-08-02', '2016-08-02'],
+						tooltip: "Al-Hayah TV Network ⋯ 02-Aug-2016",
+						label_align: 'right'
 					},
 					{
-						name: 'Al-Hayah TV Network #2',
+						name: 'Al-Hayah TV Network ',
 						marker_visible: true,
-						y: ['2017-01-07', '2017-01-07']
+						y: ['2017-01-07', '2017-01-07'],
+						tooltip: "Al-Hayah TV Network ⋯ 07-Jan-2017",
+						label_align: 'right'
 					},
 					{
 						name: 'Al-Masry Al-Youm',
 						marker_visible: true,
-						y: ['2017-08-28', '2017-08-28']
+						y: ['2017-08-28', '2017-08-28'],
+						tooltip: "Al-Masry Al-Youm ⋯ 28-Aug-2017",
+						label_align: 'right'
 					},
 					{
 						name: 'MBC Misr',
 						marker_visible: true,
-						y: ['2018-04-18', '2018-04-18']
+						y: ['2018-04-18', '2018-04-18'],
+						tooltip: "MBC Misr ⋯ 18-Apr-2018",
+						label_align: 'right'
 					},
 					{
 						name: 'BBC',
 						marker_visible: true,
-						y: ['2018-07-28', '2018-07-28']
+						y: ['2018-07-28', '2018-07-28'],
+						tooltip: "BBC ⋯ 28-Jul-2018",
+						label_align: 'right'
 					},
 					{
-						name: 'BBC',
+						name: 'BBC ',
 						marker_visible: true,
-						y: ['2019-01-05', '2019-01-05']
+						y: ['2019-01-05', '2019-01-05'],
+						tooltip: "BBC ⋯ 05-Jan-2019",
+						label_align: 'right'
 					},
+					{
+						name: 'Al Mashhad Newspaper',
+						marker_visible: true,
+						y: ['2019-05-20', '2019-05-20'],
+						tooltip: "Al Mashhad Newspaper ⋯ 20-May-2019",
+						label_align: 'right'
+					},
+					{
+						name: 'France 24',
+						marker_visible: true,
+						y: ['2019-10-10', '2019-10-10'],
+						tooltip: "France 24 ⋯ 10-Oct-2019",
+						label_align: 'right'
+					},
+					{
+						name: 'BBC  ',
+						marker_visible: true,
+						y: ['2019-10-26', '2019-10-26'],
+						tooltip: "BBC ⋯ 26-Oct-2019",
+						label_align: 'right'
+					},
+					{
+						name: 'BBC   ',
+						marker_visible: true,
+						y: ['2021-01-04', '2021-01-04'],
+						tooltip: "BBC ⋯ 04-Jan-2021",
+						label_align: 'right'
+					},
+					{
+						name: 'BBC    ',
+						marker_visible: true,
+						y: ['2021-01-10', '2021-01-10'],
+						tooltip: "BBC ⋯ 10-Jan-2021",
+						label_align: 'right'
+					},
+					{
+						name: 'BBC     ',
+						marker_visible: true,
+						y: ['2022-05-22', '2022-05-22'],
+						tooltip: "BBC ⋯ 22-May-2022",
+						label_align: 'right'
+					},
+					{
+						name: 'Al-Manassa',
+						marker_visible: true,
+						y: ['2023-09-27', '2023-09-27'],
+						tooltip: "Al-Manassa ⋯ 27-Sep-2023",
+						label_align: 'right'
+					},
+
 				]
 			},
 			{
