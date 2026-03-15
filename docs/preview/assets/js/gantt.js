@@ -30,7 +30,7 @@ window.onload = () => {
 							width: 2
 						},
 						hatch_style: 'light-downward-diagonal',
-						y: ['2016-04-10', '2025-12-31']
+						y: ['2015-06-30', '2027-04-30']
 					},
 					{
 						name: 'Mehwar TV',
@@ -128,6 +128,49 @@ window.onload = () => {
 						marker_visible: true,
 						y: ['2023-09-27', '2023-09-27'],
 						tooltip: "Al-Manassa ⋯ 27-Sep-2023",
+						label_align: 'right'
+					},
+					{
+						name: 'BBC      ',
+						marker_visible: true,
+						y: ['2025-06-06', '2025-06-06'],
+						tooltip: "BBC ⋯ 06-Jun-2025",
+						label_align: 'right'
+					},
+
+					{
+						name: 'Alhoria News #1',
+						marker_visible: true,
+						y: ['2025-09-01', '2025-09-01'],
+						tooltip: "Alhoria News #1 ⋯ 01-Sep-2025",
+						label_align: 'right'
+					},
+					{
+						name: 'Alhoria News #2',
+						marker_visible: true,
+						y: ['2025-09-02', '2025-09-02'],
+						tooltip: "Alhoria News #2 ⋯ 02-Sep-2025",
+						label_align: 'right'
+					},
+					{
+						name: 'Hafez Al-Mirazi',
+						marker_visible: true,
+						y: ['2025-09-17', '2025-09-17'],
+						tooltip: "Hafez Al-Mirazi ⋯ 17-Sep-2025",
+						label_align: 'right'
+					},
+					{
+						name: 'Fakar Taany #1',
+						marker_visible: true,
+						y: ['2025-11-16', '2025-11-16'],
+						tooltip: "Fakar Taany #1 ⋯ 16-Nov-2025",
+						label_align: 'right'
+					},
+					{
+						name: 'Fakar Taany #2',
+						marker_visible: true,
+						y: ['2025-11-19', '2025-11-19'],
+						tooltip: "Fakar Taany #2 ⋯ 19-Nov-2025",
 						label_align: 'right'
 					},
 
