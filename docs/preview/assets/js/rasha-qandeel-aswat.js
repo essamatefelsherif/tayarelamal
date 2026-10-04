@@ -9,12 +9,11 @@ window.onload = (e) => {
 		title_label_text: 'مشاهدات علي وسائل التواصل الإجتماعي ... YouTube',
 		yAxis: { label_text: '' },
 		xAxis: {
-			label_text: 'أصوات مع أحمد الطنطاوي',
+			label_text: 'أصوات مع رشا قنديل',
 			categories: [
-		'٤ سبتمبر ٢٠٢٦<br>أين تقف مصر من كارثة سد النهضة؟',
-		'١١ سبتمبر ٢٠٢٦<br>روشتة وطنية لحل الأزمة المالية',
-		'١٨ سبتمبر ٢٠٢٦<br>تعديل الدستور أم تفصيل الدستور؟',
-		'٢ أكتوبر ٢٠٢٦<br>برلمان للشعب لا صدى صوت للسلطة'
+		'١٤ سبتمبر ٢٠٢٦<br>ماذا حدث للـ ١٠٠ جنيه؟',
+		'٢٣ سبتمبر ٢٠٢٦<br>عن تاريخ الحراك الطلابي',
+		'٢٩ سبتمبر ٢٠٢٦<br>عن أزمة التعليم'
 			],
 		},
 		legend_visible: !isPortrait,
@@ -41,7 +40,7 @@ window.onload = (e) => {
 	};
 
 	const apiKey = 'AIzaSyB3c5EHgnE7iCXKURAV3jrupwFIDtnwz0Q';
-	const videoID = ['SO29HVu00Xw', 'pJ8A8Cuu3eM', 'QEdWpiT_qSQ', '313YvOq5cLY'];
+	const videoID = ['e6ncMbtRP_4', '7AxfEgJercI', 'HcJqDjd4DG8'];
 	const url = `https://www.googleapis.com/youtube/v3/videos?id=${videoID}&key=${apiKey}&part=snippet,contentDetails,statistics,status`;
 
 	fetch(url)
