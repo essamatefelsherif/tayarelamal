@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>&#X22EF; حزب تيار الأمل المصري &#X22EF;</title>
+
+	<meta name="description" content="موقع الحزب التجريبي">
+	<meta name="author" content="Essam A. El-Sherif">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://essamatefelsherif.github.io/tayarelamal">
+	<meta property="og:title" content="حزب تيار الأمل المصري (تحت التأسيس)">
+	<meta property="og:description" content="موقع الحزب التجريبي">
+	<meta property="og:image" content="https://essamatefelsherif.github.io/tayarelamal/preview/assets/img/background/tayarelamal.jpg">
+
+	<link rel="icon" type="image/png" href="../assets/img/egypt-flag-map.png">
+
+	<style>
+		body {
+			margin: 0;        /* Remove default browser margin */
+			overflow: hidden; /* Optional: Hide body scrollbars if any */
+		}
+	
+		iframe {
+			display: block;	   /* Force block level to remove inline spacing gaps */
+			width : 100vw;     /* 100% of viewport width */
+			height: 100vh;     /* 100% of viewport height */
+			border: none;      /* Remove the default border frame */
+		}
+	</style>
+
+	<script>
+		window.onload = () => {
+
+			const iframe    = document.getElementById('iframeId');
+			const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+			const meetings  = iframeDoc.getElementById('meetings');
+
+			meetings.style.display = 'none';
+		}
+	</script>
+</head>
+<body>
+	<iframe src="../index.html" id="iframeId"></iframe>
+</body>
+</html>
