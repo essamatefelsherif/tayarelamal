@@ -6,7 +6,8 @@ window.onload = (e) => {
 	const chartConfig = {
 		debug: true,
 		type: 'horizontalColumn',
-		title_label_text: '',
+		title_label_text: '⋯ عضوية مجموعات الواتس  واللجنة التأسيسية ⋯', /* code expansion feature */
+		title_position: 'right', /* code expansion feature */
 		yAxis: { label_text: '' },
 		xAxis: {
 			label_text: '',
@@ -20,6 +21,7 @@ window.onload = (e) => {
 		' ... حزب تيار الأمل محافظة القاهرة<strong>WhatsApp</strong>',
 		' ... حزب تيار الأمل محافظة الاسكندرية<strong>WhatsApp</strong>',
 		' ... حزب تيار الأمل محافظة الجيزة<strong>WhatsApp</strong>',
+		' ... حزب تيار الأمل محافظة البحيرة<strong>WhatsApp</strong>',
 			],
 		},
 		legend_visible: !isPortrait,
@@ -33,11 +35,11 @@ window.onload = (e) => {
 		series: [
 			{
 				name: 'عضو',
-				points: [7, 18, 126, 46, 15, 19, 214, 86, 138]
+				points: [7, 18, 126, 46, 15, 19, 214, 86, 138, 63]
 			},
 			{
 				name: 'مغادر',
-				points: [0, 4, 11, 3, 1, 1, 3, 3, 2]
+				points: [0, 4, 11, 3, 1, 1, 3, 3, 2, 0]
 			},
 		],
 	};

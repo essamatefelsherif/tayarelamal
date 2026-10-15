@@ -6,17 +6,20 @@ window.onload = (e) => {
 	const chartConfig = {
 		debug: true,
 		type: 'horizontalColumn',
-		title_label_text: 'مشاهدات علي وسائل التواصل الإجتماعي ... YouTube',
+		title_label_text: '… <strong>مشاهدات علي YouTube</strong> …',
 		yAxis: { label_text: '' },
 		xAxis: {
-			label_text: 'أصوات مع أحمد الطنطاوي',
+			label_text: '… <strong>أصوات مع أحمد الطنطاوي</strong> …',
 			categories: [
-		'٤ سبتمبر ٢٠٢٦<br>أين تقف مصر من كارثة سد النهضة؟',
-		'١١ سبتمبر ٢٠٢٦<br>روشتة وطنية لحل الأزمة المالية',
-		'١٨ سبتمبر ٢٠٢٦<br>تعديل الدستور أم تفصيل الدستور؟',
-		'٢ أكتوبر ٢٠٢٦<br>برلمان للشعب لا صدى صوت للسلطة'
+				'<strong>٤ سبتمبر ٢٠٢٦</strong><br>أين تقف مصر من كارثة سد النهضة؟',
+				'<strong>١١ سبتمبر ٢٠٢٦</strong><br>روشتة وطنية لحل الأزمة المالية',
+				'<strong>١٨ سبتمبر ٢٠٢٦</strong><br>تعديل الدستور أم تفصيل الدستور؟',
+				'<strong>٢٥ سبتمبر ٢٠٢٦</strong><br>حكومة حقيقية لا سكرتارية رئاسية',
+				'<strong>٢ أكتوبر ٢٠٢٦</strong><br>برلمان للشعب لا صدى صوت للسلطة',
+				'<strong>٩ أكتوبر ٢٠٢٦</strong><br>الأركان الأربعة لإصلاح مؤسسة الرئاسة'
 			],
 		},
+		yAxis_visible: false,
 		legend_visible: !isPortrait,
 		defaultSeries: {
 			defaultPoint: {
@@ -41,7 +44,7 @@ window.onload = (e) => {
 	};
 
 	const apiKey = 'AIzaSyB3c5EHgnE7iCXKURAV3jrupwFIDtnwz0Q';
-	const videoID = ['SO29HVu00Xw', 'pJ8A8Cuu3eM', 'QEdWpiT_qSQ', '313YvOq5cLY'];
+	const videoID = ['SO29HVu00Xw', 'pJ8A8Cuu3eM', 'QEdWpiT_qSQ', 'buVduIHdxx8', '313YvOq5cLY', '5wax1tzDc8o'];
 	const url = `https://www.googleapis.com/youtube/v3/videos?id=${videoID}&key=${apiKey}&part=snippet,contentDetails,statistics,status`;
 
 	fetch(url)
