@@ -1,0 +1,67 @@
+/**
+ *
+ *
+ */
+
+/* Google fonts "Amiri", "Noto Naskh Arabic", "PT Serif" */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200..1000&family=Noto+Naskh+Arabic:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+	font-family: "Noto Naskh Arabic";
+	color: rgb(0, 64, 128);
+}
+
+h3, h4{
+    color: maroon;
+}
+
+p, div{
+	text-align: justify;
+}
+
+ol > li{
+	list-style-type: arabic-indic;
+}
+
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color: rgb(0, 0, 238);
+}
+
+table{
+	width: 100%;
+}
+
+td, th{
+	border: 1px solid darkgray;
+}
+
+tr > td:first-child{
+    text-align: center;
+}
+
+.emphasis{
+	margin: 0 auto;
+	width: 80%;
+	padding: 5px;
+	border: 1px solid rgb(0, 64, 128);
+	border-radius: 10px;
+}
+
+.equation{
+	text-align: center;
+	font-family: monospace;
+	font-size: 150%;
+	font-weight: bold;
+	color: maroon;
+}
+
+hr.separator{
+    display: none;
+	width: 75%;
+	margin: 0 auto;
+	border :none;
+	border-top: 2px dotted #999999;
+}
