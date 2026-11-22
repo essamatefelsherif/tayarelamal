@@ -38,9 +38,9 @@
 
 			const iframe    = document.getElementById('iframeId');
 			const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-			const meetings  = iframeDoc.getElementById('meetings');
+			const pri  = iframeDoc.querySelectorAll('.private');
 
-			meetings.style.display = 'none';
+			pri.forEach(e => { e.style.display = 'none' } );
 		}
 	</script>
 </head>
